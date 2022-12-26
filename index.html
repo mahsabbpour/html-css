@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manuale:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+
+   
+</head>
+
+
+<body>
+    <main>
+        <header class="headtop">
+            <nav>
+                <ul>
+                    <li><a href="">menu1</a></li>
+                    <li><a href="">menu2</a>
+                        <ul class="submenu">
+                            <li><a href="">SubMenu</a></li>
+                            <li><a href="">SubMenu</a></li>
+                            <li><a href="">SubMenu</a></li>
+                            <li><a href="">SubMenu</a></li>
+                            <li><a href="">SubMenu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">menu3</a></li>
+                    <li><a href="">menu4</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content">
+            <section class="box">
+                <figure>
+                    <img src="asset/img/download.png" alt="">
+                </figure>
+            </section>
+            <section class="box2">
+                <p>Welcome to Gucci</p>
+                <p>Please,select a location to continue</p>
+                <form action="reg.php" method="post">
+                    <!-- <fieldset> -->
+                        <input type="text" name="location" placeholder="Select your Country/Region" list="loc" required
+                            autofocus>
+                        <datalist id="loc">
+                            <option value="VIETNAM">VIETNAM</option>
+                            <option value="SOUTH AFRICA">SOUTH AFRICA</option>
+                            <option value="ALBANIA">ALBANIA</option>
+                            <option value="SERBIA">SERBIA</option>
+                            <option value="UNITED STATES">UNITED STATES</option>
+                            <option value="VENEZUELA">VENEZUELA</option>
+                            <option value="QATAR">QATAR</option>
+                            <option value="ITALY">ITALY</option>
+                            <option value="SPAIN">SPAIN</option>
+                        </datalist>
+                        <br>
+                        <br>
+                        <button type="submit" id="sub"><i class="demo-icon icon-basket"></i><h1>shop</h1></button>
+                    <!-- </fieldset> -->
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
