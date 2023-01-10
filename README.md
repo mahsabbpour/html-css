@@ -1,8 +1,6 @@
 # html,css
 
-![viewfinal](https://user-images.githubusercontent.com/109727844/204102879-086fee63-9bda-43b2-a1aa-49879c3f2d39.jpg)
-
-![view final](https://user-images.githubusercontent.com/109727844/204102930-fac80657-4d16-4816-b476-a88e984abefe.jpg)
+![view final](https://user-images.githubusercontent.com/120960956/211606262-71f1a8a3-9db7-4fe5-b910-64a99481b76b.mp4)
 
 - [Demo Project](https://pouria-farahani-developer.github.io/Accordion-Menu-By-React/)
 
